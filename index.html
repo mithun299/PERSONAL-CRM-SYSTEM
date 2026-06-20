@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal CRM System</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Personal CRM System</h1>
+
+<!-- Search Box -->
+<input
+type="text"
+id="search"
+placeholder="Search Contact..."
+>
+
+<!-- Contact Form -->
+<form id="contactForm">
+
+<input
+type="text"
+id="name"
+placeholder="Full Name"
+required
+>
+
+<input
+type="email"
+id="email"
+placeholder="Email Address"
+required
+>
+
+<input
+type="text"
+id="phone"
+placeholder="Phone Number"
+required
+>
+
+<input
+type="text"
+id="company"
+placeholder="Company Name"
+required
+>
+
+<button type="submit">
+Add Contact
+</button>
+
+</form>
+
+<!-- Contact List -->
+<div id="contactList"></div>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
